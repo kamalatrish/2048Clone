@@ -1,0 +1,126 @@
+.rightAlign {
+    float: right !important;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica;
+    background: white;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.centerTab{
+    text-align: center;
+}
+
+table {
+    margin: .5em auto;
+}
+
+td {
+    font-size: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: #BBADA0;
+    border: 10px solid #776E65;
+    color: white;
+}
+
+a {
+    color: mediumseagreen;
+}
+
+#new-game {
+    margin: 0px 0px 0px 20px;
+    width: 15%;
+    height: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.instructions {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 10px;
+    text-align: left;
+    padding: 2px;
+}
+.mark2{
+    color: #F7F8F8;    
+}
+
+.innerWhite{
+    color: #F7F8F8;    
+}
+.innerBlack{
+    color: #313232;
+}
+h2{
+    font-weight : 550 !important;
+}
+.mark{
+    background-color: #7E7C7C !important;
+}
+.mark2{
+    background-color: #EEE4DA !important;
+}
+.mark4{
+    background-color: #A49F9F !important;
+}
+.mark8{
+    background-color: #F2B179 !important;
+}
+.mark16{
+    background-color: #CA874D !important;
+}
+.mark32{
+    background-color: #E08739 !important;
+}
+.mark64{
+    background-color: #F37608 !important;
+}
+.mark128{
+    background-color: #E2DD6C !important;
+}
+.mark256{
+    background-color: #EEE4DA !important;
+}
+.mark512{
+    background-color: #EEE4DA !important;
+}
+.mark1024{
+    background-color: #EEE4DA !important;
+}
+.mark2048{
+    background-color: #EEE4DA !important;
+}
+.score{
+    margin:0px 0px 0px 20px !important;
+}
