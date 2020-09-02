@@ -39,9 +39,14 @@ export default class GameComponent extends React.Component {
     }
 
     calculateGameOver = (oldScore) => {
-        let emptyArray = this.state.data.find(element => (element.find(item => item != "")))
-        if (emptyArray.length == 16) {
-            alert("Game Over")
+        if(this.state.score=2048){
+            alert("You WON  !!!!!")
+        }
+        else{
+            let emptyArray = this.state.data.find(element => (element.find(item => item != "")))
+            if (emptyArray.length == 16) {
+                alert("Game Over  !!!!!")
+            }    
         }
     }
     componentDidMount() {
